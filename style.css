@@ -1,0 +1,46 @@
+
+body{
+    background: rgb(227, 208, 208);
+    display: flex;
+}
+h1{
+    color:rgb(90, 110, 90)
+}
+
+button{
+    border-radius: 10px;
+    padding:3px;
+    margin-top:10%;
+    background-color:rgb(90, 110, 90)
+
+}
+
+img{
+    width: 50%;
+    height:100%;
+}
+
+.content{
+    float: right;
+    margin:0.5%;
+    flex:1px ;
+}
+
+.flex-container {
+flex-direction: column;
+}
+.info{
+    background:white;
+    background-size: 700px;
+    border: groove;
+    margin: 40px;
+    
+    
+}
+form{
+    padding: 5px;
+    Margin:5px;
+}
+input{
+    border-radius: 4px;
+}
