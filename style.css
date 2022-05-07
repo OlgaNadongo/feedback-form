@@ -23,17 +23,18 @@ img{
 .content{
     float: right;
     margin:0.5%;
-    flex:1px ;
+    /*flex:1px*/ ;
 }
 
 .flex-container {
 flex-direction: column;
 }
 .info{
-    background:white;
-    background-size: 700px;
-    border: groove;
-    margin: 40px;
+    background:#fff;
+    max-width: 1700px;
+    width:150%;
+
+
     
     
 }
@@ -43,4 +44,8 @@ form{
 }
 input{
     border-radius: 4px;
+}
+.userDetails{
+    display: flex;
+    flex-wrap: wrap-reverse;
 }

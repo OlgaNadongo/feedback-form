@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="trial.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&family=Tajawal:wght@200;900&display=swap" rel="stylesheet">
@@ -13,58 +13,68 @@
 <body>
 <div class="flex-container">
     
-    <img src="img/img2.jpg" alt="">
+    <!---<img src="img/img2.jpg" alt="">-->
 
     
     <div class="content">
+        <div class="heading">
         <h1>Feedback Form</h1>
-
-        <div class="info">
+        </div>
     <form>
+        <div class="row">
+        <div class="inputContent">
         <label>*First Name:</label>
-        <input type="text" id="myName" placeholder="John Doe">
-    </form>
-    <form>
-        <label>*Last Name:</label>
-        <input type="text" id="myName" placeholder="John Doe">
-    </form>
+        <input type="text" id="myName" placeholder="John">
+        </div>
+    
+        
+    
+        <div class="inputContent">
+        <label >*Last Name:</label>
+        <input type="text" id="myName" placeholder=" Doe">
+        </div>
+        </div>
 
-    <form action="">
-        <label for="">*Mobile Number:</label>
+        <div class="row">
+        <div class="inputContent">
+        <label for="">Mobile Number:</label>
         <input type="text">
-    </form>
-
-    <form action="">
+        </div>
+        
+    
+        <div class="inputContent">
         <label for="">*Email:</label>
         <input type="text" placeholder="johndoe@example.com">
-    </form>
-
-    <form action="">
+        </div>
+        </div>
+    
+        <div class="row">
+        <div class="inputContent">
         <label for="">*Password:</label>
         <input type="password">
-    </form>
-    <form action="">
+        </div>
+    
+        <div class="inputContent">
         <label for="">*Confirm Password:</label>
         <input type="password">
-    </form>
+        </div>
+        </div>
 
-    <form action="">
+    
+        <div >
         <label for="">Date of Birth:</label>
-        <input type="date">
+        <input id="dob" type="date">
+        </div>
+    
+        <div class="inputContent">
+        <label for="">Your Message:</label>
+        <textarea id="message" >
+        </div>  
+        <div>
+        <button class="btn">Submit</button>
+        </div>  
     </form>
 
-    <form action="">
-        <label for="">Website:</label>
-        <input type="text">
-    </form>
-
-    <form action="">
-        <label for="":>Location</label>
-        <input type="text">
-    </form>
-</div>
-
-    <button>Submit</button>
     </div>
     </div>
 
