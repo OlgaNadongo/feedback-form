@@ -16,20 +16,20 @@
 
 .content{
     margin-top: 80px;
-    margin-right: 80px;
-    
+    margin-right: 80px;  
 }
 
  form{
      width:90%;
      max-width: 600px;
-     
+
  }
 
  inputContent{
      margin-bottom: 30px;
      position:relative;
-     right: 90px;
+     right: 50px;
+     margin-right: 6px;
  }
 
  input{
@@ -40,44 +40,50 @@
      font-size: 15px;
      border-radius: 10px;
      cursor: text;
+     position:relative
  }
 
 #dob{
      width:600px;
      margin-top:5px ;
+     right: 90px;
      padding:20px;
      border:1px solid;
      font-size: 15px;
      border-radius: 10px;
      cursor: text;
- }
-
- input {
-     position: relative;
+     
  }
 
  textarea{
     width: 600px;
     margin-top:5px ;
+    right: 90px;
     padding:5px;
     border:1px solid;
     font-size: 15px;
     border-radius: 10px;
     cursor: text;
  }
+
  label{
      position:relative;
-     right: 100px;
+     right: 90px;
  }
 
  .row{
      display: flex;
      align-items: center;
-     justify-content: space-content;
- }
+     padding: 5px;
+     justify-content: space-between;
+     }
+
  .row .inputContent{
-     flex-basis: 48%;
- }
+    flex-basis: 48%;
+}
+
  .btn{
-     background-color: green;
+     background-color: rgb(138, 223, 138);
+     border-radius: 10px;
+     padding:2px 10px;
  }
