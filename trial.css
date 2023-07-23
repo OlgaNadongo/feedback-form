@@ -46,7 +46,6 @@
 #dob{
      width:600px;
      margin-top:5px ;
-     right: 90px;
      padding:20px;
      border:1px solid;
      font-size: 15px;
@@ -84,6 +83,7 @@
 
  .btn{
      background-color: rgb(138, 223, 138);
-     border-radius: 10px;
-     padding:2px 10px;
+     border-radius: 5px;
+     margin-top: 5px;
+     padding:10px 20px;
  }
